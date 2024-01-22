@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .stopWatch{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./2151038459.jpg);
+      }
+      .display {
+       color: wheat;
+        font-size: 40px;
+      }
+      .container {
+        
+        background-color: rgba(37, 32, 39, 0.4);
+        display: flex;
+        border-radius: 10px;
+        box-shadow: 5px 5px black;
+        height: 45vh;
+        width: 35vw;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="stopWatch">   <div class="container">
+      <div>
+        <div class="timer">
+          <div class="display">00:00:00</div>
+        </div>
+        <button id="start" onclick="setTimer()">Start</button id="">
+        <button id="stop" onclick="stopTimer()">Stop</button id="">
+        <button id="restart" onclick="resetData()">Restart</button>
+      </div>
+    </div>
+  </div>
+ 
+    <script src="stopWatch.js"></script>
+  </body>
+</html>
